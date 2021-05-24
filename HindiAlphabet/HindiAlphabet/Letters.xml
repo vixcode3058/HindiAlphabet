@@ -1,0 +1,477 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ArrayOfLetter xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Letter>
+    <name>अ</name>
+    <hint>a as in about</hint>
+    <transliteration>a</transliteration>
+    <typeOfLetter>Vowel</typeOfLetter>
+    <example>अनार:Pomegranate:anaar</example>
+<learned>false</learned>
+  </Letter>
+  <Letter>
+    <name>आ</name>
+    <hint>a as in father</hint>
+    <transliteration>aa</transliteration>
+    <typeOfLetter>Vowel</typeOfLetter>
+    <example>आटा:Flour:Atta</example>
+  <learned>false</learned>
+
+  </Letter>
+  <Letter>
+    <name>इ</name>
+    <hint>i as in sit</hint>
+    <transliteration>e</transliteration>
+    <typeOfLetter>Vowel</typeOfLetter>
+    <example>इमली:Tamarind:emli</example>
+  <learned>false</learned>
+
+  </Letter>
+  <Letter>
+    <name>ई</name>
+    <hint>ee as in seen </hint>
+    <transliteration>ee</transliteration>
+    <typeOfLetter>Vowel</typeOfLetter>
+    <example>ईनाम:Prize:eenam</example>
+  <learned>false</learned>
+
+  </Letter>
+  <Letter>
+    <name>उ</name>
+    <hint>u as in put</hint>
+    <transliteration>u</transliteration>
+    <typeOfLetter>Vowel</typeOfLetter>
+    <example>उल्लू:Owl:ulloo</example>
+  <learned>false</learned>
+
+  </Letter>
+  <Letter>
+    <name>ऊ</name>
+    <hint>oo as in pool</hint>
+    <transliteration>oo</transliteration>
+    <typeOfLetter>Vowel</typeOfLetter>
+    <example>ऊन:Wool:oon</example>
+  <learned>false</learned>
+
+  </Letter>
+  <Letter>
+    <name>ए</name>
+    <hint>a as in late</hint>
+    <transliteration>ei</transliteration>
+    <typeOfLetter>Vowel</typeOfLetter>
+    <example>एक:One:aek</example>
+  <learned>false</learned>
+
+  </Letter>
+  <Letter>
+    <name>ऐ</name>
+    <hint>a as in glad</hint>
+    <transliteration>ae</transliteration>
+    <typeOfLetter>Vowel</typeOfLetter>
+    <example>ऐनक:Specs:aeinak</example>
+  <learned>false</learned>
+
+  </Letter>
+  <Letter>
+    <name>ओ</name>
+    <hint>o as in go</hint>
+    <transliteration>ou</transliteration>
+    <typeOfLetter>Vowel</typeOfLetter>
+    <learned>false</learned>
+
+    <example />
+  </Letter>
+  <Letter>
+    <name>औ</name>
+    <hint>aw as in saw</hint>
+    <transliteration>au</transliteration>
+    <typeOfLetter>Vowel</typeOfLetter>
+    <example>औरत:Woman:aurat</example>
+  <learned>false</learned>
+
+  </Letter>
+  <Letter>
+    <name>ऋ</name>
+    <hint>ri as in grip</hint>
+    <transliteration>ri</transliteration>
+    <typeOfLetter>vowel</typeOfLetter>
+    <example>ऋषि:Sage:rishi</example>
+  <learned>false</learned>
+
+  </Letter>
+  <Letter>
+    <name>क</name>
+    <hint>k as in skit</hint>
+    <transliteration>ka</transliteration>
+    <typeOfLetter>Constant</typeOfLetter>
+    <example>कहाँ:Where:kahan;कल:Tomorrow/Yesterday:kal</example>
+  <learned>false</learned>
+
+  </Letter>
+  <Letter>
+    <name>ख</name>
+    <hint>breathz-k as in look-here</hint>
+    <transliteration>kha</transliteration>
+    <typeOfLetter>Constant</typeOfLetter>
+    <example>खांसी:Cough:khaansee</example>
+  <learned>false</learned>
+
+  </Letter>
+  <Letter>
+    <name>ग</name>
+    <hint>g as in gate</hint>
+    <transliteration>g</transliteration>
+    <typeOfLetter>Constant</typeOfLetter>
+    <example>गाय:Cow:gaay</example>
+  <learned>false</learned>
+
+  </Letter>
+  <Letter>
+    <name>घ</name>
+    <hint>breathy-g as in dog-house</hint>
+    <transliteration>gh</transliteration>
+    <typeOfLetter>Constant</typeOfLetter>
+    <example>घर:Home:ghar</example>
+  </Letter>
+  <Letter>
+    <name>ङ</name>
+    <hint>ng as in swing</hint>
+    <transliteration>n</transliteration>
+    <typeOfLetter>Constant</typeOfLetter>
+    <example>डर:Fear:dar</example>
+  <learned>false</learned>
+
+  </Letter>
+  <Letter>
+    <name>च</name>
+    <hint>ch as in check</hint>
+    <transliteration>ch</transliteration>
+    <typeOfLetter>Constant</typeOfLetter>
+    <example>चोर:Thief:choor</example>
+  <learned>false</learned>
+
+  </Letter>
+  <Letter>
+    <name>छ</name>
+    <hint>breathy-ch as in catch-him</hint>
+    <transliteration>chch</transliteration>
+    <typeOfLetter>Constant</typeOfLetter>
+    <example>छह:Six:chhah</example>
+  <learned>false</learned>
+
+  </Letter>
+  <Letter>
+    <name>ज</name>
+    <hint>j as in june</hint>
+    <transliteration>j</transliteration>
+    <typeOfLetter>Constant</typeOfLetter>
+    <example>जाओ:Go:jao</example>
+  <learned>false</learned>
+
+  </Letter>
+  <Letter>
+    <name>झ</name>
+    <hint>breathy-j as in dodge-him</hint>
+    <transliteration>jh</transliteration>
+    <typeOfLetter>Constant</typeOfLetter>
+    <example>झंडा:Flag:jhanda</example>
+  <learned>false</learned>
+
+  </Letter>
+  <Letter>
+    <name>ञ</name>
+    <hint>this sound does not exist in english; most like the n in unjust</hint>
+    <transliteration>ñ</transliteration>
+    <typeOfLetter>Constant</typeOfLetter>
+    <learned>false</learned>
+
+    <example />
+  </Letter>
+  <Letter>
+    <name>ट</name>
+    <hint>t as in tomatto</hint>
+    <transliteration>t</transliteration>
+    <typeOfLetter>Constant</typeOfLetter>
+    <example>टमाटर:tomato:tmatar</example>
+  <learned>false</learned>
+
+  </Letter>
+  <Letter>
+    <name>ठ</name>
+    <hint>breathy-t as in ant</hint>
+    <transliteration>th</transliteration>
+    <typeOfLetter>Constant</typeOfLetter>
+    <example>ठेला:Jamming:thela</example>
+  <learned>false</learned>
+
+  </Letter>
+  <Letter>
+    <name>ड</name>
+    <hint>d as in date</hint>
+    <transliteration>d</transliteration>
+    <typeOfLetter>Constant</typeOfLetter>
+    <learned>false</learned>
+
+    <example />
+  </Letter>
+  <Letter>
+    <name>ड़</name>
+    <hint>This sound does not exist in English; most like an r followed by a quick d</hint>
+    <transliteration>Ra</transliteration>
+    <typeOfLetter>Constant</typeOfLetter>
+    <learned>false</learned>
+
+    <example />
+  </Letter>
+  <Letter>
+    <name>ढ</name>
+    <hint />
+    <transliteration>Dh</transliteration>
+    <typeOfLetter>Constant</typeOfLetter>
+    <example>ढकन:Lid:dhakan</example>
+  <learned>false</learned>
+
+  </Letter>
+  <Letter>
+    <name>ढ़</name>
+    <hint>breathy-Ra</hint>
+    <transliteration>rha</transliteration>
+    <typeOfLetter>Constant</typeOfLetter>
+    <example>बाढ़:Flood:baadh</example>
+  <learned>false</learned>
+
+  </Letter>
+  <Letter>
+    <name>ण</name>
+    <hint>This sound does not exist in English</hint>
+    <transliteration>n</transliteration>
+    <typeOfLetter>Constant</typeOfLetter>
+    <learned>false</learned>
+
+    <example />
+  </Letter>
+  <Letter>
+    <name>त</name>
+    <hint />
+    <transliteration>ta</transliteration>
+    <typeOfLetter>Constant</typeOfLetter>
+    <example>तल:Bottom:tal</example>
+  <learned>false</learned>
+
+  </Letter>
+  <Letter>
+    <name>थ</name>
+    <hint>breathy tha as in thermos</hint>
+    <transliteration>tha</transliteration>
+    <typeOfLetter>Constant</typeOfLetter>
+    <example>साथ:With:saath</example>
+  <learned>false</learned>
+
+  </Letter>
+  <Letter>
+    <name>द</name>
+    <hint>d as in breath</hint>
+    <transliteration>da</transliteration>
+    <typeOfLetter>Constant</typeOfLetter>
+    <example>दाम:Price:daam;दस:Ten:das</example>
+  <learned>false</learned>
+
+  </Letter>
+  <Letter>
+    <name>ध</name>
+    <hint>breathy-da</hint>
+    <transliteration>dha</transliteration>
+    <typeOfLetter>Constant</typeOfLetter>
+    <example>धनुष:Bow:dhanush</example>
+  <learned>false</learned>
+
+  </Letter>
+  <Letter>
+    <name>न</name>
+    <hint>n as in name or anthem</hint>
+    <transliteration>na</transliteration>
+    <typeOfLetter>Constant</typeOfLetter>
+    <example>नाम : Name : naam</example>
+  <learned>false</learned>
+
+  </Letter>
+  <Letter>
+    <name>प</name>
+    <hint>p as in pun</hint>
+    <transliteration>pa</transliteration>
+    <typeOfLetter>Constant</typeOfLetter>
+    <example>पतंग:Kite:patang</example>
+  <learned>false</learned>
+
+  </Letter>
+  <Letter>
+    <name>फ</name>
+    <hint>f as in fruit</hint>
+    <transliteration>pha</transliteration>
+    <typeOfLetter>Constant</typeOfLetter>
+    <example>फल:Fruit:phal</example>
+  <learned>false</learned>
+
+  </Letter>
+  <Letter>
+    <name>ब</name>
+    <hint>b as in bun</hint>
+    <transliteration>ba</transliteration>
+    <typeOfLetter>Constant</typeOfLetter>
+    <example>बहुत:Very:bahut</example>
+  <learned>false</learned>
+
+  </Letter>
+  <Letter>
+    <name>भ</name>
+    <hint>breathy-b as in clubhouse</hint>
+    <transliteration>bha</transliteration>
+    <typeOfLetter>Constant</typeOfLetter>
+    <example>भालू:Bear:bhaaloo</example>
+  <learned>false</learned>
+
+  </Letter>
+  <Letter>
+    <name>म</name>
+    <hint>m as in mug</hint>
+    <transliteration>ma</transliteration>
+    <typeOfLetter>Constant</typeOfLetter>
+    <example>मां:Mother:Maa</example>
+  <learned>false</learned>
+
+  </Letter>
+  <Letter>
+    <name>य</name>
+    <hint>y as in young</hint>
+    <transliteration>ya</transliteration>
+    <typeOfLetter>Constant</typeOfLetter>
+    <example>योग:Yoga:yog</example>
+  <learned>false</learned>
+
+  </Letter>
+  <Letter>
+    <name>र</name>
+    <hint>r as in run</hint>
+    <transliteration>ra</transliteration>
+    <typeOfLetter>Constant</typeOfLetter>
+    <example>रात:Night:raat</example>
+  <learned>false</learned>
+
+  </Letter>
+  <Letter>
+    <name>ल</name>
+    <hint>l as in lunch</hint>
+    <transliteration>la</transliteration>
+    <typeOfLetter>Constant</typeOfLetter>
+    <example>लाल:Red:laal</example>
+  <learned>false</learned>
+
+  </Letter>
+  <Letter>
+    <name>व</name>
+    <hint>between an English v and w</hint>
+    <transliteration>va</transliteration>
+    <typeOfLetter>Constant</typeOfLetter>
+    <example>वादा:Promise:vaada</example>
+  <learned>false</learned>
+
+  </Letter>
+  <Letter>
+    <name>श</name>
+    <hint>sh as in shell</hint>
+    <transliteration>sh</transliteration>
+    <typeOfLetter>Constant</typeOfLetter>
+    <example>शत्रु:Enemy:shatru</example>
+  <learned>false</learned>
+
+  </Letter>
+  <Letter>
+    <name>ष</name>
+    <hint>sh as in German Schneider</hint>
+    <transliteration>Sh</transliteration>
+    <typeOfLetter>Constant</typeOfLetter>
+    <learned>false</learned>
+
+    <example>षटकोण:shatkon:Hexagon</example>
+  </Letter>
+  <Letter>
+    <name>स</name>
+    <hint>s as in sun</hint>
+    <transliteration>sa</transliteration>
+    <typeOfLetter>Constant</typeOfLetter>
+    <example>सब:All:sab</example>
+  <learned>false</learned>
+
+  </Letter>
+  <Letter>
+    <name>ह</name>
+    <hint>h as in head</hint>
+    <transliteration>Ha</transliteration>
+    <typeOfLetter>Constant</typeOfLetter>
+    <example>हार:Defeat:haar</example>
+  <learned>false</learned>
+
+  </Letter>
+  <Letter>
+    <name>त्र</name>
+    <hint>tr as in trishna</hint>
+    <transliteration>tra</transliteration>
+    <typeOfLetter>Constant</typeOfLetter>
+    <example>त्रिकोण:Triangle:trikon</example>
+  <learned>false</learned>
+
+  </Letter>
+  <Letter>
+    <name>ज्ञ</name>
+    <hint>combination of g-y</hint>
+    <transliteration>gy</transliteration>
+    <typeOfLetter>Constant</typeOfLetter>
+    <example>ज्ञान:knowledge:gyan</example>
+  <learned>false</learned>
+
+  </Letter>
+  <Letter>
+    <name>क.</name>
+    <hint>k (Arabic)</hint>
+    <transliteration>qa</transliteration>
+    <typeOfLetter>Constant</typeOfLetter>
+    <example />
+  <learned>false</learned>
+
+  </Letter>
+  <Letter>
+    <name>ख.</name>
+    <hint>ch as in loch</hint>
+    <transliteration>khha</transliteration>
+    <typeOfLetter>Constant</typeOfLetter>
+    <example />
+  <learned>false</learned>
+
+  </Letter>
+  <Letter>
+    <name>ग.</name>
+    <hint>g( as in Persian Language) </hint>
+    <transliteration>ghha</transliteration>
+    <typeOfLetter>Constant</typeOfLetter>
+    <example />
+  <learned>false</learned>
+
+  </Letter>
+  <Letter>
+    <name>ज़</name>
+    <hint>z as in Zone</hint>
+    <transliteration>z</transliteration>
+    <typeOfLetter>Constant</typeOfLetter>
+    <example>ज़रा:zra:Just</example>
+  <learned>false</learned>
+
+  </Letter>
+  <Letter>
+    <name>.फ</name>
+    <hint>f as in fin</hint>
+    <transliteration>f</transliteration>
+    <typeOfLetter>Constant</typeOfLetter>
+    <example>फ़ायदा:fayda:Profit</example>
+  <learned>false</learned>
+
+  </Letter>
+</ArrayOfLetter>

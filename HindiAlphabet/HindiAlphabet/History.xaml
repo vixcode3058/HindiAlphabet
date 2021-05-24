@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="HindiAlphabet.History" 
+             BackgroundColor="{StaticResource PageBackgroundColor}"
+             Title="History">
+    <ContentPage.Content>
+        <ScrollView>
+        <StackLayout Margin="10" >
+                <Label FontSize="20" Margin="5">
+                    <Label.Text>
+                        The written system of Hindi, known as Devanagari, dates back to approximately the 11th century A.D. There are also other languages, such as Sanskrit, Marathi,and Nepali, which use the Devanagari script.  A noticeable feature of Devanagari is the top horizontal line which is formed when letters are combined.&#10;Hindi is read from left to right and written with spaces between words. However, the letters which make up a word often  combine and when the letters join together they sometimes change form. In Hindi there is a definite correspondence between spelling and pronunciation. There are a total of 11-14 vowels and 33-36 consonants, depending on the chart used.&#10;There are no capital letters, but Hindi vowels have a different appearance when they appear independently or following another vowel than they do when they appear in a word following a consonant.  In a word following a consonant, they change to what is known as a maatraa form. As a maatraa, a vowel can be placed before, after, above, or below a consonant. Devanagari also includes several diacritical marks, the chandrabindu and bindu, which nasalize the vowels.&#10;Since Hindi is written using the Devanagari alphabet, you will need to learn to associate the sounds with what is probably a new system of symbols.
+                    </Label.Text>
+                    
+                </Label>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Application xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="HindiAlphabet.App">
+	<Application.Resources>
+        <ResourceDictionary>
+            <Color x:Key="PageBackgroundColor">White</Color>
+            <Color x:Key="HeadingTextColor">Blue</Color>
+            <Color x:Key="NormalTextColor">Black</Color>
+            <Style x:Key="LableFontStyle" TargetType="Label">
+                <Setter Property="FontFamily" Value="Time"/>
+                <Setter Property="FontSize" Value="Medium"/>
+            </Style>
+            <On x:Key="HindiFont" Platform="Android" Value="NotoSansDevanagari-Bold.ttf" />
+        </ResourceDictionary>
+
+    </Application.Resources>
+</Application>

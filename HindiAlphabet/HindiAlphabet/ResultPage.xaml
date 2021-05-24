@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="HindiAlphabet.ResultPage"
+             Appearing="ContentPage_Appearing"
+             BackgroundColor="{StaticResource PageBackgroundColor}"
+             Title="Result">
+    <ContentPage.ToolbarItems>
+
+        <ToolbarItem x:Name="deleteResult" Text="Delete All" Clicked="deleteResult_Clicked"/>
+    </ContentPage.ToolbarItems>
+    
+    <ContentPage.Content>
+        
+        <Grid >
+            
+            <StackLayout x:Name="SP_header" Orientation="Horizontal" Margin="10" >
+                <Label Text="Letter" FontSize="20" HorizontalOptions="StartAndExpand"   />
+                <Label Text="Correct" FontSize="20"   HorizontalOptions="StartAndExpand"   />
+                <Label Text="Wrong" FontSize="20"  HorizontalOptions="StartAndExpand"  />
+                <Label Text="Last Time" FontSize="20"  HorizontalOptions="EndAndExpand" />
+            </StackLayout>
+
+            <ListView x:Name="LV_results" Margin="10,50,10,20" VerticalOptions="FillAndExpand"  HorizontalOptions="StartAndExpand">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell >
+                            <StackLayout Orientation="Horizontal"  HorizontalOptions="StartAndExpand">
+                                <Label Text="{Binding letterName}" HorizontalTextAlignment="Center" HorizontalOptions="StartAndExpand" FontSize="20"  Margin="10,0,10,0" WidthRequest="80"/>
+                                <Label Text="{Binding correctAnswer}" HorizontalTextAlignment="Center" HorizontalOptions="StartAndExpand"  FontSize="20" Margin="10,0,10,0" WidthRequest="80"/>
+                                <Label Text="{Binding wrongAnswer}"  HorizontalTextAlignment="Center"  FontSize="20" HorizontalOptions="StartAndExpand"  Margin="10,0,10,0" WidthRequest="80"/>
+                                <Label Text="{Binding lastTimeAnswer}" HorizontalTextAlignment="Center" HorizontalOptions="EndAndExpand" FontSize="20"  Margin="10,0,10,0" WidthRequest="100"/>
+                            </StackLayout>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>

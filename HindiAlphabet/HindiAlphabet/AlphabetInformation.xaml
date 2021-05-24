@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="HindiAlphabet.AlphabetInformation"
+             xmlns:Local="clr-namespace:HindiAlphabet"
+             Title="{Binding name}"
+             BackgroundColor="{StaticResource PageBackgroundColor}">
+
+    <ContentPage.Resources>
+
+        <Local:GetExamplePart x:Key="getHindi"/>
+
+    </ContentPage.Resources>
+    
+    <ContentPage.Content>
+        <StackLayout Margin="10">
+            <Grid VerticalOptions="StartAndExpand" HeightRequest="300" >
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="1*"/>
+                    <ColumnDefinition Width="2*"/>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="auto" />
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="auto"/>
+                </Grid.RowDefinitions>
+
+                <Label x:Name="L_aplhName" Text="{Binding name}" FontFamily="{StaticResource HindiFont}" 
+               Style="{StaticResource LableFontStyle}" FontSize="60" FontAttributes="Bold" Grid.Column="0" Grid.Row="0" HorizontalTextAlignment="Center" />
+
+                <Label Text="Hint :" Grid.Column="0" Grid.Row="1" Margin="5"  FontSize="15" FontFamily="{StaticResource HindiFont}"/>
+                <Label x:Name="L_aplhPronc" Text="{Binding hint}" 
+               Style="{StaticResource LableFontStyle}"   Grid.Column="1" Grid.Row="1" Margin="5"/>
+
+                <Label Text="Type Of Letter :" Grid.Column="0" Grid.Row="2" Margin="5"  FontSize="15"/>
+                <Label x:Name="L_aplhType" Text="{Binding typeOfLetter}"
+               Style="{StaticResource LableFontStyle}" Grid.Column="1" Grid.Row="2" Margin="5"  />
+
+                <Label Text="Transliteration :" Grid.Column="0" Grid.Row="3" Margin="5"  FontSize="15"/>
+                <Label x:Name="L_aplhInfo" Text="{Binding transliteration}"
+               Style="{StaticResource LableFontStyle}" Grid.Column="1" Grid.Row="3" Margin="5"  />
+
+                <Label Text="Examples :" Grid.Column="0" Grid.Row="4" Margin="5,20,5,0"  FontSize="15"/>
+             </Grid>
+
+            <StackLayout x:Name="exampleHeader" Orientation="Horizontal">
+                <Label Text="Hindi Word" WidthRequest="100" HorizontalOptions="StartAndExpand" Margin="10,0,10,0"  TextColor="Black" FontSize="Small"/>
+                <Label Text="Pronunciation" WidthRequest="110" HorizontalOptions="StartAndExpand" Margin="10,0,10,0"  TextColor="Black" FontSize="Small"/>
+                <Label Text="Meaning" WidthRequest="100" HorizontalOptions="StartAndExpand" Margin="10,0,10,0"  TextColor="Black" FontSize="Small"/>
+            </StackLayout>
+            
+            <ListView x:Name="LV_example"  ItemsSource="{Binding example, Converter= {StaticResource getHindi}}"   Margin="0,0,0,0" VerticalOptions="StartAndExpand" HasUnevenRows="True">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <StackLayout Margin="0,5,0,0" Orientation="Horizontal"  VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand">
+                                <Label x:Name="L_hindiWord" Text="{Binding hindiLetter}" VerticalTextAlignment="Center" FontAttributes="Bold" FontSize="Large" WidthRequest="100"  Margin="10,0,10,0" HorizontalOptions="StartAndExpand" 
+                                       >
+                                    <Label.GestureRecognizers>
+                                        <TapGestureRecognizer
+                                             Tapped="TapGestureRecognizer_Tapped"
+                                             NumberOfTapsRequired="1" />
+                                    </Label.GestureRecognizers>
+                                </Label>
+                                <Label Text="{Binding pronc}" VerticalTextAlignment="Center" FontAttributes="Bold" HorizontalOptions="StartAndExpand" FontSize="Medium" WidthRequest="100"  Margin="10,0,10,0"/>
+                                <Label Text="{Binding englishMeaning}"  VerticalTextAlignment="Center" FontAttributes="Bold" FontSize="Medium"  WidthRequest="110" HorizontalOptions="StartAndExpand" Margin="10,0,10,0"/>
+
+                            </StackLayout>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+
+            <StackLayout Margin="10" VerticalOptions="EndAndExpand" HorizontalOptions="Start" Orientation="Horizontal">
+                <Label Text="Learned ?" FontSize="20"/>
+                <Switch x:Name="ToggelBtn_learn"  Toggled="Switch_Toggled" />
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
